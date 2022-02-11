@@ -1,5 +1,5 @@
 
-##HarryBooks
+# HarryBooks
 >Es una página web donde se pueden realizar ***"compras"* **de los libros de Harry Potter, escritos por la autora **J.K. Rowling**.
 
 ### Información
