@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Trebuchet MS';
+    color: #EE82EE;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS';
+    color: white;
+    table-layout: fixed;
+    width: 80%;
+    padding: 20px;
+    background-color: #171520;
+    box-shadow: black;
+}
+
+thead {
+    text-align: center;
+}
+
+.col {
+    color: #EE82EE;
+}
+
+.subtotal-table {
+    background-color: white;
+    color: black;
+}
+
+.delete {
+    color: white;
+}
+
+.button-pay {
+    font-family: 'Trebuchet MS';
+    font-style: bold;
+    border-radius: 5px;
+    background-color: darkseagreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.div-but .button-pay:hover {
+    transition-duration: 0.3s;
+    background-color: forestgreen;
+}
+

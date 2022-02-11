@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/img_back/bg2.png);
+    font-size: 1.6rem;
+    background-color: #262335;
+}
+
+.page-nav{
+    list-style-type: none;
+    background-color: #241B2F;
+}
+
+.page-nav img {
+    position: absolute;
+    padding: 5px;
+}
+
+.page-nav li{
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 20px;
+}
+
+.page-nav .carry-shop {
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-decoration: none;
+}
+
+.container .payment {
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.div-but {
+    text-align: center;
+}
+
+.div-but a {
+    font-family: 'Trebuchet MS';
+    border-radius: 5px;
+    left: 290px;
+    bottom: 300px;
+    background-color: darkseagreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.div-but a:hover {
+    transition-duration: 0.3s;
+    background-color: forestgreen;
+}
+

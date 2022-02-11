@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/img_back/bg2.png);
+    font-size: 1.6rem;
+    background-color: #262335;
+}
+
+.page-nav{
+    list-style-type: none;
+    background-color: #241B2F;
+ }
+
+.page-nav img {
+    position: absolute;
+    padding: 5px;
+}
+
+.page-nav li{
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 20px;
+}
+
+.page-nav .carry-shop {
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-decoration: none;
+}
+
+.container h2 {
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin: 10px;
+    
+}
+
+.container {
+    box-shadow: black;
+}
+
+.container-deploy {
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.box {
+    margin: 15px;
+    padding: 10px;
+    width: 70rem;
+    height: 50rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #171520;
+    box-shadow: black;
+    display: inline-flexbox;
+}
+
+.box .description{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.80);
+    transition: 0.3s;
+}
+
+.box1 img {
+    position: relative;
+    width: 25rem;
+    left: 20px;
+    top: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.box1 .name-book{
+    position: relative;
+    bottom: 400px;
+    left: 280px;
+    color: violet;
+    font-size: 20px;
+}
+
+.box1 .description {
+    position: relative;
+    bottom: 380px;
+    left: 290px;
+}
+
+.box1 .price {
+    position: relative;
+    bottom: 340px;
+    left: 281px;
+}
+
+
+.box1 .button-shop {
+    font-family: 'Trebuchet MS';
+    position: relative;
+    border-radius: 5px;
+    left: 290px;
+    bottom: 300px;
+    background-color: #241B2F;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.box .button-shop:hover {
+    transition-duration: 0.3s;
+    background-color: darkorchid;
+}
+
+.page-content{
+    border: 1px solid white;
+}
